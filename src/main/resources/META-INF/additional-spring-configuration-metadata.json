@@ -1,0 +1,22 @@
+{"properties": [
+  {
+    "name": "myplan.admin.username",
+    "type": "java.lang.String",
+    "description": "A description for 'myplan.admin.username'"
+  },
+  {
+    "name": "myplan.admin.password",
+    "type": "java.lang.String",
+    "description": "A description for 'myplan.admin.password'"
+  },
+  {
+    "name": "myplan.admin.name",
+    "type": "java.lang.String",
+    "description": "A description for 'myplan.admin.name'"
+  },
+  {
+    "name": "myplan.secetkey",
+    "type": "java.lang.String",
+    "description": "A description for 'myplan.secetkey'"
+  }
+]}
