@@ -39,7 +39,7 @@ public class MyPlanSecurityConfig extends WebSecurityConfigurerAdapter {
 		http.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);
 
 		http.authorizeRequests()
-				.antMatchers("/api/login/**", "/api/token/refresh/**").permitAll()
+				.antMatchers("/api/login/**", "/api/token/refresh/**", "/api/register/**").permitAll()
 
 //				.antMatchers("/api/management/user")
 //					.hasAnyAuthority("ROLE_ADMIN")
